@@ -7,5 +7,15 @@ function whisper(string) {
 }
 
 function logShout(string) {
-  console.log(string.toUpperCase())
+  var togla = string.toUpperCase()
+  console.log(togla)
 }
+
+// function DEFINITION
+function emma(num) {
+  return num + 10
+}
+
+// FUNCTION CALL
+var mynumber = 5
+emma(mynumber)
